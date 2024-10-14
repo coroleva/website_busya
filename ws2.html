@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя кошка Корниш-рекс</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://koshka.top/uploads/posts/2021-12/1639997139_1-koshka-top-p-fon-dlya-koshki-1.jpg'); /* URL вашего фонового изображения */
+            background-size: cover; /* изображение покроет всю страницу */
+            background-position: center; /* центрируем изображение */
+            background-attachment: fixed; /* фон фиксируется при прокрутке */
+            color: white; /* белый цвет текста для лучшей читабельности на темном фоне */
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.6); /* полупрозрачный черный фон */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ddd;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* полупрозрачный фон для секций */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            color: #f7f7f7;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #eaeaea;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Моя кошка Корниш-рекс</h1>
+</header>
+
+<nav>
+    <a href="#about">О кошке</a>
+    <a href="#gallery">Фотогалерея</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<section id="about">
+    <h2>О моей кошке</h2>
+    <p>Моя кошка породы Корниш-рекс — настоящая маленькая принцесса! Она отличается активным и дружелюбным характером, обожает играть и требует много внимания. Эта порода известна своей короткой, вьющейся шерстью, а также невероятной грацией и подвижностью. Несмотря на ее независимость, она любит быть рядом и всегда найдет возможность сесть рядом, когда вы отдыхаете.</p>
+</section>
+
+<section id="gallery">
+    <h2>Фотогалерея</h2>
+    <div class="gallery">
+        <img src="data:image/jpeg;base64,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" alt="Кошка">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFMzavrrrEDoLtpUw6K8prZMlhK_70EqTx1A&s" alt="Кошка">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnw9vI_oTbZz3RVHvg-XdbQvNtruE5W2CQoA&s" alt="Кошка">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Контакты</h2>
+    <p>Связаться со мной можно через <a href="mailto:example@email.com" style="color: #ffeb3b;">email</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Моя кошка Корниш-рекс</p>
+</footer>
+
+</body>
+</html>
